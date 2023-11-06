@@ -3,6 +3,7 @@ import  Home from "./pages/Home";
 import  Products  from "./pages/Products";
 import  Contact  from "./pages/Contact";
 import PageNotFound  from "./pages/PageNotFound";
+
 import './App.css'
 
 import Navbar from "./pages/Navbar";
@@ -14,11 +15,11 @@ function App() {
        <Routes>
            <Route path="/" element = {<Home />} />
            <Route path="/products" element = {<Products />} />
-           <Route path="/pages" element = {<PageNotFound />} />
+           <Route path="*" element = { <PageNotFound /> } />
            <Route path="/contact" element = {<Contact />} />
        </Routes>
    <Footer/>
-   </Router>
+   </Router>  
   );
 }
 export default App;
