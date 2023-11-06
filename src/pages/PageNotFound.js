@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 
-export const PageNotFound = () => {
+ const PageNotFound = () => {
   return (
     <>
       <header className="theme-light text-center-desktop text-center-mobile">

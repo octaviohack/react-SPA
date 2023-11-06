@@ -1,4 +1,4 @@
-export const Contact = () => {
+ const Contact = () => {
   return (
       <>
       <header className="theme-light text-center-desktop text-center-mobile">

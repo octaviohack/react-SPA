@@ -1,4 +1,4 @@
- export const Footer = () => {
+ const Footer = () => {
     
   return (
       <footer className="text-center-mobile">

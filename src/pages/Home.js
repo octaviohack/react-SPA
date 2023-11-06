@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-export const Home = () => {
+ const Home = () => {
   return (
       <>
       <header className="theme-light text-center-desktop text-center-mobile">
