@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/octaviohack/react-SPA.git/static/css/main.81974ec3.css",
-    "main.js": "/octaviohack/react-SPA.git/static/js/main.cf757fa9.js",
+    "main.js": "/octaviohack/react-SPA.git/static/js/main.a9cff55e.js",
     "index.html": "/octaviohack/react-SPA.git/index.html",
     "main.81974ec3.css.map": "/octaviohack/react-SPA.git/static/css/main.81974ec3.css.map",
-    "main.cf757fa9.js.map": "/octaviohack/react-SPA.git/static/js/main.cf757fa9.js.map"
+    "main.a9cff55e.js.map": "/octaviohack/react-SPA.git/static/js/main.a9cff55e.js.map"
   },
   "entrypoints": [
     "static/css/main.81974ec3.css",
-    "static/js/main.cf757fa9.js"
+    "static/js/main.a9cff55e.js"
   ]
 }
