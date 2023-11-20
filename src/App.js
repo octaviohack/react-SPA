@@ -10,16 +10,16 @@ import Navbar from "./pages/Navbar";
 import Footer from "./pages/Footer";
 function App() {
   return (
-   <Router>
-   <Navbar/>
+   <Router basename = {process.env.PUBLIC_URL}>
+   <Navbar />
        <Routes>
            <Route path="/" element = {<Home />} />
            <Route path="/products" element = {<Products />} />
-           <Route path="*" element = { <PageNotFound /> } />
            <Route path="/contact" element = {<Contact />} />
+           <Route path="*" element = { <PageNotFound /> } />            
        </Routes>
-   <Footer/>
-   </Router>  
+   <Footer />
+   </Router>
   );
 }
 export default App;
